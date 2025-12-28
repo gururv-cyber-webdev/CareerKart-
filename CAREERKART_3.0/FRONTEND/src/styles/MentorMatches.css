@@ -1,0 +1,63 @@
+.mentor-matches-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.mentor-matches-heading {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.mentor-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.mentor-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.mentor-details {
+  flex-grow: 1;
+}
+
+.mentor-details h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.qa-pair {
+  margin-bottom: 10px;
+}
+
+.qa-pair strong {
+  display: inline-block;
+  width: 220px;
+  font-weight: 600;
+  color: #555;
+}
+
+.qa-pair span {
+  color: #333;
+}
+
+.no-mentors {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  margin-top: 40px;
+}

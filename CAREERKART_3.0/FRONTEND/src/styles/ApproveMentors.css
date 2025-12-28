@@ -1,0 +1,31 @@
+.approve-mentors-list-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  background: #fcfcfc;
+  padding: 28px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #eee;
+}
+.approve-mentors-title {
+  margin-bottom: 20px;
+}
+.mentor-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f1f2f6;
+  margin-bottom: 12px;
+  padding: 12px 14px;
+  border-radius: 4px;
+}
+.approve-btn {
+  background: #328932;
+  color: #fff;
+  border: none;
+  padding: 6px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.approve-btn:hover {
+  background: #1d621d;
+}

@@ -1,0 +1,28 @@
+.mentor-profile-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  background: #f7f8fc;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  text-align: center;
+}
+.mentor-profile-img {
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+.mentor-profile-edit-btn {
+  background: #1976d2;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.mentor-profile-edit-btn:hover {
+  background: #1256a0;
+}

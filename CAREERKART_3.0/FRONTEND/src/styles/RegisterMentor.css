@@ -1,0 +1,31 @@
+.register-mentor-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  background: #f9fafb;
+  padding: 26px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+.register-mentor-form input,
+.register-mentor-form select {
+  width: 100%;
+  margin: 12px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #cdd;
+  font-size: 1rem;
+}
+.register-mentor-form button {
+  width: 100%;
+  background: #294355;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 16px;
+}
+.register-mentor-form button:hover {
+  background: #183040;
+}
